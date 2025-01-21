@@ -8,7 +8,7 @@
                 "duration": "ความยาว",
                 "trackNumber": "เพลงที่",
                 "playCount": "จำนวนครั้งที่เล่น",
-                "title": "ชื่อเพลง",
+                "title": "เพลง",
                 "artist": "ศิลปิน",
                 "album": "อัลบั้ม",
                 "path": "ที่อยู่ไฟล์",
@@ -65,7 +65,7 @@
                 "playNext": "เล่นถัดไป",
                 "addToQueue": "เพิ่มในคิว",
                 "shuffle": "เล่นแบบสุ่ม",
-                "addToPlaylist": "เพิ่มลงในเพลย์ลิสต์",
+                "addToPlaylist": "เพิ่มในเพลย์ลิสต์",
                 "download": "ดาวน์โหลด",
                 "info": "ดูรายละเอียด",
                 "share": "แบ่งปัน"
@@ -98,7 +98,7 @@
                 "userName": "ชื่อผู้ใช้",
                 "isAdmin": "เป็นผู้ดูแลระบบหรือไม่",
                 "lastLoginAt": "ล็อกอินล่าสุด",
-				"lastAccessAt": "เข้าระบบล่าสุด",
+		"lastAccessAt": "เข้าระบบล่าสุด",
                 "updatedAt": "อัปเดตล่าสุด",
                 "name": "ชื่อ",
                 "password": "รหัสผ่าน",
@@ -170,11 +170,11 @@
             }
         },
         "radio": {
-            "name": "วิทยุ",
+            "name": "วิทยุออนไลน์",
             "fields": {
                 "name": "สถานีวิทยุ",
-                "streamUrl": "url ที่จะฟัง",
-                "homePageUrl": "url ของสถานี",
+                "streamUrl": "สตรีม url ของสถานี",
+                "homePageUrl": "โฮมเพจของสถานี",
                 "updatedAt": "อัปเดตเมื่อ",
                 "createdAt": "สร้างที่"
             },
@@ -215,7 +215,7 @@
             "sign_in": "เข้าสู่ระบบ",
             "sign_in_error": "การยืนยันตัวตนล้มเหลว โปรดลองอีกครั้ง",
             "logout": "ลงชื่อออก",
-			"insightsCollectionNote": "Navidrome รวบรวมข้อมูลการใช้งานที่ไม่ระบุ ตัวตนเพื่อช่วยปรับปรุงโครงการ คลิกที่นี่ เพื่อเรียนรู้เพิ่มเติมหรือยกเลิก"
+	    "insightsCollectionNote": "Navidrome รวบรวมข้อมูลการใช้งานที่ไม่ระบุ ตัวตนเพื่อช่วยปรับปรุงโครงการ คลิกที่นี่ เพื่อเรียนรู้เพิ่มเติมหรือยกเลิก"
         },
         "validation": {
             "invalidChars": "กรุณาใช้ตัวอักษรภาษาอังกฤษและตัวเลขเท่านั้น",
@@ -380,7 +380,7 @@
         "shareCopyToClipboard": "คัดลอกไปยังคลิปบอร์ด: Ctrl+C, Enter"
     },
     "menu": {
-        "library": "ห้องสมุด",
+        "library": "ห้องสมุดเพลง",
         "settings": "ตั้งค่า",
         "version": "เวอร์ชั่น %{version}",
         "theme": "ธีม",
@@ -391,7 +391,7 @@
                 "language": "ภาษา",
                 "defaultView": "หน้าเริ่มต้น",
                 "desktop_notifications": "การแจ่งเตือนบนหน้าจอ",
-				"lastfmNotConfigured": "ยังไม่ได้ตั้งค่า Last.fm API-Key",
+		"lastfmNotConfigured": "ยังไม่ได้ตั้งค่า Last.fm API-Key",
                 "lastfmScrobbling": "Scrobble ไปยัง Last.fm",
                 "listenBrainzScrobbling": "Scrobble ไปยัง ListenBrainz",
                 "replaygain": "โหมด ReplayGain",
